@@ -10,7 +10,7 @@ This is my personal portfolio website — a simple, scrollable one-page site mad
 - Clean, green-themed design
 
 ### How to use:
-You can [view the live site here](https://your-live-site-link.com)  
+You can [view the live site here](https://benevolent-cupcake-68292c.netlify.app)  
 (or open the `index.html` file in any browser)
 
 Built for showcasing my work during internship and job applications.
