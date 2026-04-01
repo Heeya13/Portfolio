@@ -8,8 +8,11 @@
 </head>
 <body>
   <header>
-    <div class="logo">Heeya Chawda</div>
-    <nav>
+  <div class="logo">Heeya Chawda</div>
+  <p class="tagline">
+    AI/ML Developer & Software Engineer.
+  </p>
+  <nav>
       <a href="#about">About</a>
       <a href="#education">Education</a>
       <a href="#projects">Projects</a>
@@ -25,11 +28,9 @@
       <div class="about-text">
         <h1>About Me</h1>
         <p>
-          I’m a 3rd year B.Tech student specializing in Artificial Intelligence and Data Science,
-          with strong experience in full-stack development, game design, and machine learning projects.
-          I’m passionate about creating tech that blends intelligence and interactivity—from full-stack
-          platforms to horror-based story-driven games.
-        </p>
+        I’m a third-year B.Tech student specializing in Artificial Intelligence and Data Science, focused on building intelligent systems using machine learning, computer vision, and full-stack development. 
+        I work on developing AI-driven applications and systems that emphasize both technical depth and real-world usability.
+      </p>
       </div>
       <div class="about-image">
         <img src="assets/HEEYA23110149.jpg" alt="Profile Picture of Heeya" />
@@ -45,7 +46,7 @@
           <h2>B.Tech, Artificial Intelligence and Data Science</h2>
           <p>Shiv Nadar University, Chennai<br />
           August 2023 – August 2027<br />
-          <strong>CGPA:</strong> 8.56 (Semester I to Semester V)</p>
+          <strong>CGPA:</strong> 8.59 (Semester I to Semester V)</p>
         </div>
         <div class="education-block">
           <h2>Indian School Certificate Examination (12th)</h2>
@@ -66,90 +67,136 @@
     
     <!-- Projects Section -->
     <section id="projects" class="projects">
-      <h1>Projects</h1>
+    <h1>Projects</h1>
 
-      <div class="project-card">
-        <h2>Rural Planning AI Model (Smart Indian Hackathon Project) </h2>
-        <p>Built a geospatial analysis platform using CNNs to identify features like buildings, roads, and water bodies from high-resolution drone imagery.</p>
-        <p><strong>My Role:</strong> Led frontend integration using Streamlit. Designed an interactive UI that allowed users to upload GIS data, select layers, and visualize outputs as zoomable maps with feature overlays and area stats.</p>
-        <span class="tech">Tech: Python, Streamlit, GeoPandas, PIL, Matplotlib, CNNs</span>
-      </div>
+    <div class="project-card">
+      <h2>Geospatial AI for Rural Infrastructure Mapping</h2>
+      <p>
+        Built an AI-powered geospatial analysis system to identify buildings, roads, and water bodies
+        from high-resolution drone imagery for rural planning applications.
+      </p>
+      <p>
+        Developed an interactive Streamlit dashboard for data upload, preprocessing, and visualization.
+        Integrated a CNN-based feature extraction model to generate overlays, maps, and statistical insights.
+      </p>
+      <span class="tech">Tech: Python, Streamlit, GeoPandas, CNNs, PIL, Matplotlib</span>
+    </div>
 
-      <div class="project-card">
-        <h2>BodySync – Goal Tracker</h2>
-        <p>A full-stack fitness tracking app with user login, health goal monitoring, and real-time data updates.</p>
-        <span class="tech">Tech: HTML, CSS, MySQL</span>
-      </div>
+    <div class="project-card">
+      <h2>AI-Based Video Frame Interpolation (RIFE Adaptation)</h2>
+      <p>
+        Adapted a deep learning-based frame interpolation model to process custom datasets using structured
+        12-frame sequences and triplet-based splitting.
+      </p>
+      <p>
+        Implemented preprocessing optimizations and CUDA-accelerated inference using PyTorch, and evaluated
+        output quality using PSNR and SSIM metrics.
+      </p>
+      <span class="tech">Tech: Python, PyTorch, OpenCV, NumPy, CUDA</span>
+    </div>
 
-      <div class="project-card">
-        <h2>SchoolFirst – School Management</h2>
-        <p>Web platform for handling student data, attendance, and role-based access for administrators.</p>
-        <span class="tech">Tech: JavaScript, Node.js, Express, MongoDB</span>
-      </div>
+    <div class="project-card">
+      <h2>Adaptive Semantic Hint Generation System (Ongoing)</h2>
+      <p>
+        Designed an NLP-based system for generating adaptive hints in a word guessing game
+        using semantic similarity and controlled output strategies.
+      </p>
+      <p>
+        Built a BERT-based similarity pipeline and an adaptive hint progression system with feedback memory
+        to prevent repetition and improve hint quality.
+      </p>
+      <span class="tech">Tech: Python, BERT, Scikit-learn, NumPy</span>
+    </div>
 
-      <div class="project-card">
-        <h2>Gesture-Controlled Flappy Bird</h2>
-        <p>A game using MediaPipe and OpenCV to control a bird's jump with pinch gestures via webcam.</p>
-        <span class="tech">Tech: Python, Pygame, MediaPipe</span>
-      </div>
+    <div class="project-card">
+      <h2>BodySync – Personalized Goal Tracking Platform</h2>
+      <p>
+        Developed a full-stack web application for tracking physical activity and maintaining consistency
+        through structured progress monitoring.
+      </p>
+      <p>
+        Implemented authentication, database design, and dynamic UI updates for personalized user experiences.
+      </p>
+      <span class="tech">Tech: HTML, CSS, JavaScript, MySQL</span>
+    </div>
 
-      <div class="project-card">
-        <h2>Word Sense Disambiguation</h2>
-        <p>Identifies context-based meanings of ambiguous words in text using NLP and WordNet-based scoring.</p>
-        <span class="tech">Tech: Python, NLTK, WordNet</span>
-      </div>
+  </section>
 
-      <div class="project-card">
-        <h2>Tic Tac Toe – iOS Game</h2>
-        <p>A classic two-player Tic Tac Toe game with a sleek interface, built for iPhone using Swift and UIKit. Includes basic game logic, win detection, and a reset feature.</p>
-        <p class="tech">Tech: Swift, UIKit, Xcode</p>
-      </div>
-    
-    </section>
+  <section id="other-projects" class="projects">
+  <h1>Other Projects</h1>
+  <div class="project-card">
+    <h2>Student Activity Management System</h2>
+    <p>
+      Built a web-based system for teachers to track student progress and plan activity-based learning workflows.
+    </p>
+  </div>
+  <div class="project-card">
+    <h2>Word Sense Disambiguation</h2>
+    <p>Determined context-based meanings of ambiguous words using NLP and WordNet.</p>
+  </div>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-      <h1>Skills</h1>
-      <div class="skill-block">
-        <div class="skill-heading">
-          <img src="assets/icons/code-icon.png" alt="Languages Icon" />
-          <h2>Languages & Technologies</h2>
-        </div>
-        <p>Java, C, C++, Python, JavaScript, HTML, CSS, MySQL, MongoDB</p>
-      </div>
+  <div class="project-card">
+    <h2>Gesture-Controlled Flappy Bird</h2>
+    <p>Controlled gameplay using hand gestures with MediaPipe and OpenCV.</p>
+  </div>
 
-      <div class="skill-block">
-        <div class="skill-heading">
-          <img src="assets/icons/framework-icon.png" alt="Framework Icon" />
-          <h2>Frameworks & Libraries</h2>
-        </div>
-        <p>React, Node.js, Express, Pygame, MediaPipe</p>
-      </div>
+  <div class="project-card">
+    <h2>Weather Dashboard</h2>
+    <p>Displays real-time weather data using API integration.</p>
+  </div>
 
-      <div class="skill-block">
-        <div class="skill-heading">
-          <img src="assets/icons/domain-icon.png" alt="Domain Icon" />
-          <h2>Domains</h2>
-        </div>
-        <p>Full Stack Development, AI/ML Modeling & Deployment, Game Design</p>
-      </div>
+  <div class="project-card">
+    <h2>iOS Games (Swift)</h2>
+    <p>Developed Tic Tac Toe and Sudoku apps to learn iOS development.</p>
+  </div>
 
-      <div class="skill-block">
-        <div class="skill-heading">
-          <img src="assets/icons/tools-icon.png" alt="Tools Icon" />
-          <h2>Tools</h2>
-        </div>
-        <p>Git, GitHub, VS Code, Figma, Unity, blueJ, Xcode</p>
-      </div>
+  </section>
 
-      <div class="skill-block">
-        <div class="skill-heading">
-          <img src="assets/icons/language-icon.png" alt="Language Icon" />
-          <h2>Languages Spoken</h2>
-        </div>
-        <p>English, Hindi and Gujarati (Native), Tamil, Spanish (A1)</p>
-      </div>
-    </section>
+<!-- Skills Section -->
+<section id="skills" class="skills">
+  <h1>Skills</h1>
+
+  <div class="skill-block">
+    <div class="skill-heading">
+      <img src="assets/icons/code-icon.png" alt="Languages Icon" />
+      <h2>Languages</h2>
+    </div>
+    <p>Python, C++, Java, JavaScript, HTML, CSS, MySQL</p>
+  </div>
+
+  <div class="skill-block">
+    <div class="skill-heading">
+      <img src="assets/icons/framework-icon.png" alt="Framework Icon" />
+      <h2>Frameworks & Libraries</h2>
+    </div>
+    <p>PyTorch, OpenCV, Scikit-learn, Streamlit, Node.js, Express</p>
+  </div>
+
+  <div class="skill-block">
+    <div class="skill-heading">
+      <img src="assets/icons/domain-icon.png" alt="Domain Icon" />
+      <h2>Domains</h2>
+    </div>
+    <p>Artificial Intelligence & Machine Learning, Computer Vision, Natural Language Processing, Full Stack Development</p>
+  </div>
+
+  <div class="skill-block">
+    <div class="skill-heading">
+      <img src="assets/icons/tools-icon.png" alt="Tools Icon" />
+      <h2>Tools</h2>
+    </div>
+    <p>Git, GitHub, VS Code, Unity, Unreal Engine, Xcode</p>
+  </div>
+
+  <div class="skill-block">
+    <div class="skill-heading">
+      <img src="assets/icons/language-icon.png" alt="Language Icon" />
+      <h2>Languages Spoken</h2>
+    </div>
+    <p>English, Hindi and Gujarati (Native), Tamil, Spanish (A1)</p>
+  </div>
+
+</section>
 
   </main>
 
